@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+ 
+}
+
+.name {
+  list-style: none;
+  padding: 1%;
+  margin: 1%;
+}
+
+.girl {
+  color: red;
+  border: 4px double black;
+}
+
+.boy {
+  color: darkblue;
+  border: 2px solid black;
+  
+}
