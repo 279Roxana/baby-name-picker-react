@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const SearchNames = (props) => {
+const SearchBar = (props) => {
   const [searchName, setSearchName] = useState("");
   const [displayNames, setDisplayNames] = useState([])
 
@@ -37,5 +37,4 @@ console.log(useEffect)
   );
 };
 
-
-export default SearchNames
+export default SearchBar;
